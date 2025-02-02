@@ -191,7 +191,7 @@ async def query_documents(request: QueryRequest,
 
         prompt = (
             f"""
-            You are E-comm Search Engine created by TKGL, an AI assistant for give response of list of ID  as a json format only like [1, 2, 3].
+            You are E-comm Search Engine created by Custom data, an AI assistant for give response of list of ID  as a json format only like [1, 2, 3].
 
             Given the following retrieved content and user query, return a list of IDs that best match the query. The list should be in the format of a JSON array of IDs.
 
