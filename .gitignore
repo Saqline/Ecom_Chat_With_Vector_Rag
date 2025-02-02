@@ -1,0 +1,4 @@
+venv/
+test/faiss_index/
+test.db
+app/views/rag/faiss_index/

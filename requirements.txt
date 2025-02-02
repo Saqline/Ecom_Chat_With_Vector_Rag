@@ -1,0 +1,14 @@
+fastapi 
+uvicorn[standard]
+pydantic[email] 
+sqlalchemy 
+bcrypt 
+passlib
+pyjwt
+langchain
+langchain_ollama
+langchain_community
+jq
+faiss-cpu
+python-multipart
+mysql-connector-python
