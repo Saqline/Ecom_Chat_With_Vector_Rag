@@ -190,6 +190,7 @@ async def query_documents(request: QueryRequest,
         )
 
         prompt = (
+            
             f"""
             You are E-comm Search Engine created by Custom data, an AI assistant for give response of list of ID  as a json format only like [1, 2, 3].
 
