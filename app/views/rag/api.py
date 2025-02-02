@@ -17,7 +17,8 @@ from app.utills.auth_utils import get_current_user
 
 
 
-MODEL_NAME = "llama3.2-vision:11b-instruct-q4_K_M"
+MODEL_NAME = "llama3.2-vision:11b-instruct-q4_K_M" 
+
 # MODEL_NAME = "llama3.2:1b-instruct-q4_K_M"
 
 FAISS_INDEX_PATH = "app/views/rag/faiss_index"
