@@ -4,10 +4,10 @@ from email.mime.text import MIMEText
 
 def send_email(email: str,  subject: str, body: str):
     # SMTP server configuration
-    smtp_host = "mail.sobjanta.ai"
+    smtp_host = "mail host"
     smtp_port = 587  # SSL/TLS port
-    smtp_user = "info@techknowgram.com"
-    smtp_password = "Tkgl@432!"
+    smtp_user = "mail user"
+    smtp_password = "pass"
 
     # Create the email
     msg = MIMEMultipart()
@@ -32,10 +32,10 @@ def send_email(email: str,  subject: str, body: str):
 def send_verification_email(email: str, verify_code: str):
     print("come1")
     # SMTP server configuration
-    smtp_host = "mail.sobjanta.ai"
+    smtp_host = "mail host"
     smtp_port = 587  # SSL/TLS port
-    smtp_user = "info@techknowgram.com"
-    smtp_password = "Tkgl@432!"
+    smtp_user = "mail user"
+    smtp_password = "pass"
     print("come12")
     # Email content
     subject = "Your  Verification Code"
@@ -124,19 +124,7 @@ def send_verification_email(email: str, verify_code: str):
             <div class="verification-code">{verify_code}</div>
             <p>This code will expire in 5 minutes.</p>
             <p>Thanks,</p>
-            <p>The Sobjanta Team</p>
-        </div>
-        <div class="footer">
-            <p>Get in touch</p>
-            <p>+11 111 333 4444</p>
-            <p>info@sobjanta.ai</p>
-            <div class="social-icons">
-                <img src="https://img.icons8.com/ios-filled/50/004a9f/facebook.png" alt="Facebook">
-                <img src="https://img.icons8.com/ios-filled/50/004a9f/linkedin.png" alt="LinkedIn">
-                <img src="https://img.icons8.com/ios-filled/50/004a9f/instagram.png" alt="Instagram">
-                <img src="https://img.icons8.com/ios-filled/50/004a9f/twitter.png" alt="Twitter">
-            </div>
-            <p>© 2024 Sobjanta. All rights reserved.</p>
+            
         </div>
     </div>
 </body>
